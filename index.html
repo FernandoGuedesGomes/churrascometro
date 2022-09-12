@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+
+    <style>
+        .container{
+            max-width: 300px;
+            margin: auto;
+
+            padding: 10px;
+            border-radius: 10px;
+
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            width: 100%;
+            display: block;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Churrascômetro</h1>
+        <input id="adultos" name="adultos" type="number" placeholder="Adultos"></input>
+        <input id="criancas" name="criancas" type="number" placeholder="Crianças"></input>
+        <input id="duracao" name="duracao" type="number" placeholder="Duração (h)"></input>
+        <button onclick="caucular()">Cauclar</button>
+
+        <div id="resultado">
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
