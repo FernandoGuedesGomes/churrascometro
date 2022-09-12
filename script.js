@@ -9,7 +9,7 @@ let inputDuracao = document.getElementById("duracao");
 
 let resultado = document.getElementById("resultado");
 
-function caucular() {
+function calcular() {
 
     let adultos = inputAdultos.value;
     let criancas = inputCriancas.value;
